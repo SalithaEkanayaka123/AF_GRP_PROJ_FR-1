@@ -53,7 +53,7 @@ function EditorContentTable({isSubmit, isSubmitted}) {
     const fetchEventDetails = async () => {
         try {
             const response = await axios
-                .get("http://application-framework-database.herokuapp.com/api/v1/events")
+                .get("https://application-framework-database.herokuapp.com/api/v1/events")
             seteventData(response.data)
                 .catch((error) => {
                     console.log("Error", error);

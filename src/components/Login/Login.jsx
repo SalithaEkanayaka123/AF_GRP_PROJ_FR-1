@@ -6,7 +6,7 @@ import {useHistory} from "react-router-dom";
 
 //Importing Custom Style Sheet. 
 import styles from './style';
-import '../../CSS/loginstyle.css';
+import './loginstyle.css';
 import {loginUser} from "../../actions/users";
 const Login = () => {
     const history = useHistory();

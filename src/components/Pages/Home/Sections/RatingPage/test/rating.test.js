@@ -15,7 +15,7 @@ describe("Rating Component Testing", () =>{
     });
     it('should Render the rating-header-main-header', () =>{
         expect(getByTestId(container, 'rating-header-main-header')).toBeTruthy();
-        expect(getByTestId(container, 'rating-header-main-header').textContent).toBe('Register');
+        expect(getByTestId(container, 'rating-header-main-header').textContent).toBe('Rating');
     });
     it('should Render the rating-header-second-header', () =>{
         expect(getByTestId(container, 'rating-header-second-header')).toBeTruthy();
@@ -24,10 +24,5 @@ describe("Rating Component Testing", () =>{
     it('should Render the Gallery rating-cardLayout', () =>{
         expect(getByTestId(container, 'rating-cardLayout')).toBeTruthy();
     })
-    it('should Render the rating-line1', () =>{
-        expect(getByTestId(container, 'rating-line1')).toBeTruthy();
-    });
-    it('should Render the rating-line2', () =>{
-        expect(getByTestId(container, 'rating-line2')).toBeTruthy();
-    });
+
 })

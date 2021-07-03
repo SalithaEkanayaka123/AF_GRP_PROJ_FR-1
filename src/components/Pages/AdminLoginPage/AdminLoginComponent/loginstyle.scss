@@ -8,7 +8,6 @@
 .admin-login-border {
     background-color: #000000;
     height: 95px;
-    opacity: 81%;
     border-radius:  20px 20px 0px 0px;
 
     .header{
@@ -22,7 +21,6 @@
         .second-header{
             font-size: 20.86px;
             margin-top: -7px;
-            opacity: 60%;
         }
     }
 }
@@ -55,7 +53,6 @@ lable{
 
     #{&}-link {
         color: #5C5C5C;
-        opacity: 60%;
         text-align: center;
         margin-left: -20px;
     }

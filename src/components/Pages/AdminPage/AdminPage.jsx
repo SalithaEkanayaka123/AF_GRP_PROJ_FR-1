@@ -34,7 +34,7 @@ const AdminPage = () => {
     const fetchUserDetails = async () => {
         try {
             const response = await axios
-                .get("http://application-framework-database.herokuapp.com/api/v1/users")
+                .get("https://application-framework-database.herokuapp.com/api/v1/users")
                 .catch((error) => {
                     console.log("Error", error);
                 });

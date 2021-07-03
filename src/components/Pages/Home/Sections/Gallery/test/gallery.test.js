@@ -13,10 +13,6 @@ describe("Gallery Component Testing", () =>{
     it('should Render the Gallery header', () =>{
         expect(getByTestId(container, 'gallery-header')).toBeTruthy();
     });
-    it('should Render the Gallery button', () =>{
-        expect(getByTestId(container, 'gallery-button')).toBeTruthy();
-        expect(getByTestId(container, 'gallery-button').textContent).toBe('View All');
-    });
     it('should Render the Gallery topic', () =>{
         expect(getByTestId(container, 'gallery-topic')).toBeTruthy();
         expect(getByTestId(container, 'gallery-topic').textContent).toBe('Gallery Page');
